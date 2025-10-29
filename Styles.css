@@ -1,0 +1,144 @@
+.first-page-container{
+  text-align : center;
+   background : linear-gradient(to top right  , #ff7b00 50%, #140800 50% ) ;
+   width:100vw ;
+   height: 100vh;
+   margin-top : -27px;
+   margin-left: -8px;
+   padding-bottom: 100px;
+   margin-bottom: 50px;
+}
+
+h1{
+   color : white;
+   padding-top:40px;
+   font-family: "Fira Sans", sans-serif;
+   font-size : 40px;
+   font-weight : bold;
+   text-shadow : 5px 5px 8px #ff6500;
+}
+
+img{
+  width: 500px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius:10px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 20px white;
+}
+ p{
+   color : white;
+   font-family: "Fira Sans", sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+   margin-top:70px;
+   text-shadow: 5px 5px 5px black;
+ }
+
+
+ .phone-container{
+    position : relative;
+    width: 250px;
+    height: 460px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 15px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bfbfbf;
+ }
+ .phone-background{
+   background-color:black;
+   width: 100%;
+   height: 20px;
+ }
+ .phone-camera {
+   background-color: white;
+   width:10px;
+   height:10px;
+   border-radius:50%;
+   margin:auto;
+ }
+
+ label{
+   margin-top: -10px;
+   font-family: "Fira Sans", sans-serif;
+   display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100px;    
+  font-size: 22px; 
+  font-weight: bold;
+  color: white;
+ }
+ #user-input{
+   display: block;
+    margin-top: -15px ;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+ }
+
+ #results-div{
+       overflow-y: auto;
+    height: 265px;
+    width: 100%;
+    max-width: 400px;
+    margin : 0;
+    color : white;
+     display: flex;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+  text-align : center; 
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+  transition : all 0.3s ease-in-out;
+  word-break: break-word;
+ }
+
+ .phone-footer{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .btn-styles{
+    cursor: pointer;
+    width: 100px;
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border-width: 3px;
+    background-color:#f69797;
+    border-radius:10px;
+    border: none;
+ }
+
+ .btn-styles:hover{
+    box-shadow: 0px 0px 10px #4ed3ff;
+ }
+ .second-page-color{
+    width:100vw;
+    height:100vh;
+    margin-top : -50px;
+    margin-left: -8px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    background-color: #4ed3ff;
+ }
