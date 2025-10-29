@@ -6,15 +6,14 @@ checkBotton.addEventListener("click" , handleCheck);
 clearBotton.addEventListener("click" , handleClear);
 
 function handleCheck() {
+  event.preventDefault();
   const check = userInput.value.trim();
-
   if (check === "") {
     alert("Please provide a phone number");
     return;
   }
-
+  
   const regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s\-])?\d{3}([\s\-])?\d{4}$/;
-
   if (regex.test(check)) {
     resultsDiv.textContent = "Valid US number: " + check;
   } else {
@@ -22,9 +21,8 @@ function handleCheck() {
   }
 }
 
-
-
 function handleClear() {
+  event.preventDefault();
       userInput.value = "";
       resultsDiv.textContent = "";
 }
